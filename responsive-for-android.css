@@ -1,0 +1,78 @@
+@media only screen and (max-width: 560px) {
+    .header-container{
+        margin: 30px 0px;
+    }
+    /* nav-bar-container  */
+    .nav-bar-container{
+        flex-direction: column;
+    }
+    .banner-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .banner-details{
+        width: 100%;
+    }
+    .banner-tittle h1{
+        font-size: 25px;
+    }
+    /* banner card design  */
+    .banner-card-container{
+        width: 100%;
+    }
+
+    .banner-arrow{
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    .time-location-contact{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .time{
+        border-right: none;
+    }
+    .location{
+        border-right: none;
+    }
+    /* products section  */
+    .main-section-container{
+        margin: 30px 0px;
+    }
+    .tittle h3{
+        text-align: center;
+    }
+    .products-card{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .testimonials-details-container{
+        flex-direction: column;
+    }
+    .testimonials-details{
+        width: 100%;
+    }
+    .testimonial-image{
+        width: 100%;
+    }
+    /* subscribe section  */
+    .subscribe-section{
+        flex-direction: column;
+        border-radius: 20px;
+    }
+    .sub-image{
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .subscribe-details{
+        padding: 20px 0px;
+    }
+    /* footer section  */
+    .footer-container{
+        margin: 30px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
